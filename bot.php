@@ -1,47 +1,6 @@
 <?php
-$access_token = 'e7j8LZupeYDsw1/VE9+xrQu6QxMvmYSwO2vSNcl3ttHhyjc8LS7XJDr4qTqDRsIhaefBDgXdPURZtLiGp+xF9dEIAqSYV17mjIbo/6XFvYQNDCeNvMi034wWBKU7cPUGALZ3vpCq+zQ3b9gFnNVhZAdB04t89/1O/w1cDnyilFU=';
-
-// Get POST body content
-$content = file_get_contents('php://input');
-// Parse JSON
-$events = json_decode($content, true);
-// Validate parsed JSON data
-if (!is_null($events['events'])) {
-	// Loop through each event
-	foreach ($events['events'] as $event) {
-		// Reply only when message sent is in 'text' format
-		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
-			// Get text sent
-			$text = $event['message']['text'];
-			// Get replyToken
-			$replyToken = $event['replyToken'];
-
-			// Build message to reply back
-			$messages = [
-				'type' => 'text',
-				'text' => $text
-			];
-
-			// Make a POST Request to Messaging API to reply to sender
-			$url = 'https://api.line.me/v2/bot/message/reply';
-			$data = [
-				'replyToken' => $replyToken,
-				'messages' => [$messages],
-			];
-			$post = json_encode($data);
-			$headers = array('Content-Type: application/json', 'Authorization: Bearer ' . $access_token);
-
-			$ch = curl_init($url);
-			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-			curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
-			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-			$result = curl_exec($ch);
-			curl_close($ch);
-
-			echo $result . "\r\n";
-		}
-	}
-}
-echo "OK";
+/// การตั้งค่าเกี่ยวกับ bot ใน LINE Messaging API
+define('LINE_MESSAGE_CHANNEL_ID','กรอก ค่า Channel ID');
+define('LINE_MESSAGE_CHANNEL_SECRET','กรอกค่า Channel secret');
+define('LINE_MESSAGE_ACCESS_TOKEN','กรอกค่า Channel access token');
+?>
