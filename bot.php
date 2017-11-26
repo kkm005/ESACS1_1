@@ -1,53 +1,15 @@
-{
-  "type": "template",
-  "altText": "this is a carousel template",
-  "template": {
-      "type": "carousel",
-      "columns": [
-          {
-            "thumbnailImageUrl": "https://example.com/bot/images/item1.jpg",
-            "title": "this is menu",
-            "text": "description",
-            "actions": [
-                {
-                    "type": "postback",
-                    "label": "Buy",
-                    "data": "action=buy&itemid=111"
-                },
-                {
-                    "type": "postback",
-                    "label": "Add to cart",
-                    "data": "action=add&itemid=111"
-                },
-                {
-                    "type": "uri",
-                    "label": "View detail",
-                    "uri": "http://example.com/page/111"
-                }
-            ]
-          },
-          {
-            "thumbnailImageUrl": "https://example.com/bot/images/item2.jpg",
-            "title": "this is menu",
-            "text": "description",
-            "actions": [
-                {
-                    "type": "postback",
-                    "label": "Buy",
-                    "data": "action=buy&itemid=222"
-                },
-                {
-                    "type": "postback",
-                    "label": "Add to cart",
-                    "data": "action=add&itemid=222"
-                },
-                {
-                    "type": "uri",
-                    "label": "View detail",
-                    "uri": "http://example.com/page/222"
-                }
-            ]
-          }
-      ]
-  }
-}
+$imageMapUrl = 'https://www.mywebsite.com/imgsrc/photos/w/sampleimagemap';
+$replyData = new ImagemapMessageBuilder(
+    $imageMapUrl, // ส่วนของการกำหนด url รูป
+    'This is Imagemap', // ส่วนของการกำหนดหัวเรื่องว่าเกี่ยวกับอะไร
+    new BaseSizeBuilder(699,1040), // กำหนดขนาดของรูป (สูง,กว้าง)
+    array(
+        new ImagemapMessageActionBuilder(
+            'test image map',
+            new AreaBuilder(0,0,520,699)
+            ),
+        new ImagemapUriActionBuilder(
+            'http://www.ninenik.com',
+            new AreaBuilder(520,0,520,699)
+            )
+    ));
