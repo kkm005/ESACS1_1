@@ -370,7 +370,7 @@ if (!is_null($events['events'])) {
                                                              'columns'=> array(
 						                               array(
 										     'thumbnailImageUrl'=>'https://raiingphu.com/psq/PIC2.jpg',
-								                     'title'=>'Pea Smart Qoery',    
+								                     'title'=>'ศูนย์ประเมินความรู้ความสามารถ กฟต.1',    
 								                     'text'=> 'กรุณาเลือกเมนูที่ต้องการ',
                                                                                         'actions'=>array (
                                                                                                            array(
