@@ -375,17 +375,17 @@ if (!is_null($events['events'])) {
                                                                                         'actions'=>array (
                                                                                                            array(
                                                                                                                  'type'=> 'message',
-                                                                                                                 'label'=> 'สาระสำคัญของ พ.ร.บ.',
+                                                                                                                 'label'=> 'ระเบียบก่อสร้างปี 59',
                                                                                                                  'text'=> 'ระเบียบก่อสร้างปี 59'
                                                                                                                  ),
 									                                   array(
                                                                                                                 'type'=> 'message',
-                                                                                                                 'label'=> 'สาระสำคัญของ พ.ร.บ.',
+                                                                                                                 'label'=> 'มาตรฐานงานก่อสร้าง',
                                                                                                                  'text'=> 'มาตรฐานงานก่อสร้าง'
                                                                                                                   ),
 												           array(
                                                                                                                 'type'=> 'message',
-                                                                                                                 'label'=> 'ขั้นตอนการยื่น',
+                                                                                                                 'label'=> 'Pea Smart Location',
                                                                                                                  'text'=> 'Pea Smart Location'
                                                                                                                   )
                                                                                                                   )//action col1
