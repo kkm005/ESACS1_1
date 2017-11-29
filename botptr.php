@@ -370,22 +370,22 @@ if (!is_null($events['events'])) {
                                                              'columns'=> array(
 						                               array(
 										     'thumbnailImageUrl'=>'https://image.ibb.co/gTW9Kb/ESAC2.jpg',
-								                     'title'=>'ศูนย์ประเมินความรู้ความสามารถ กฟต.1',    
-								                     'text'=> 'กรุณาเลือกเมนูที่ต้องการ',
+								                     'title'=>'ศูนย์ประเมินความรู้ความสามารถ สาขาช่างไฟฟ้าภายในอาคาร กฟต.1',    
+								                     'text'=> 'กรุณาเลือกหัวข้อที่ต้องการทราบ',
                                                                                         'actions'=>array (
                                                                                                            array(
                                                                                                                  'type'=> 'message',
-                                                                                                                 'label'=> 'ระเบียบก่อสร้างปี59',
+                                                                                                                 'label'=> 'สาระสำคัญของ พ.ร.บ.',
                                                                                                                  'text'=> 'ระเบียบก่อสร้างปี 59'
                                                                                                                  ),
 									                                   array(
                                                                                                                 'type'=> 'message',
-                                                                                                                 'label'=> 'มาตรฐานงานก่อสร้าง',
+                                                                                                                 'label'=> 'สาระสำคัญของ พ.ร.บ.',
                                                                                                                  'text'=> 'มาตรฐานงานก่อสร้าง'
                                                                                                                   ),
 												           array(
                                                                                                                 'type'=> 'message',
-                                                                                                                 'label'=> 'Pea Smart Location',
+                                                                                                                 'label'=> 'ขั้นตอนการยื่น',
                                                                                                                  'text'=> 'Pea Smart Location'
                                                                                                                   )
                                                                                                                   )//action col1
