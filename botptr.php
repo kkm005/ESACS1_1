@@ -369,7 +369,7 @@ if (!is_null($events['events'])) {
                                                              'type'=> 'carousel',
                                                              'columns'=> array(
 						                               array(
-										     'thumbnailImageUrl'=>'https://raiingphu.com/psq/PIC2.jpg',
+										     'thumbnailImageUrl'=>'https://image.ibb.co/kXOWhw/ESAC3.jpg',
 								                     'title'=>'ศูนย์ประเมินความรู้ความสามารถ กฟต.1',    
 								                     'text'=> 'กรุณาเลือกเมนูที่ต้องการ',
                                                                                         'actions'=>array (
