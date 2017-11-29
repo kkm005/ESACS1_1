@@ -370,7 +370,7 @@ if (!is_null($events['events'])) {
                                                              'columns'=> array(
 						                               array(
 										     'thumbnailImageUrl'=>'https://image.ibb.co/gTW9Kb/ESAC2.jpg',
-								                     'title'=>'ศูนย์ประเมินความรู้ความสามารถ สาขาช่างไฟฟ้าภายในอาคาร กฟต.1',    
+								                     'title'=>'ศูนย์ประเมินความรู้ความสามารถ กฟต.1',    
 								                     'text'=> 'กรุณาเลือกหัวข้อที่ต้องการทราบ',
                                                                                         'actions'=>array (
                                                                                                            array(
