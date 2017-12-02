@@ -376,7 +376,7 @@ if (!is_null($events['events'])) {
                                                                                                            array(
                                                                                                                  'type'=> 'message',
                                                                                                                  'label'=> 'ระเบียบก่อสร้างปี 59',
-                                                                                                                 'text'=> 'ระเบียบก่อสร้างปี 59'
+                                                                                                                 'text'=> 'ที่มา'
                                                                                                                  ),
 									                                   array(
                                                                                                                 'type'=> 'message',
