@@ -385,7 +385,7 @@ if (!is_null($events['events'])) {
                                                                                                                   ),
 												           array(
                                                                                                                 'type'=> 'message',
-                                                                                                                 'label'=> 'สาขาช่างไฟฟ้าภายในอาคาร',
+                                                                                                                 'label'=> 'ช่างไฟฟ้าภายในอาคาร',
                                                                                                                  'text'=> 'Pea Smart Location'
                                                                                                                   )
                                                                                                                   )//action col1
