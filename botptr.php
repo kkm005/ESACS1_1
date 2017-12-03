@@ -391,9 +391,9 @@ if (!is_null($events['events'])) {
                                                                                                                   )//action col1
 								            ),
 								     array(
-							            'thumbnailImageUrl'=>'https://raiingphu.com/psq/PIC2.jpg',
-							            'title'=>'Pea Smart Query', 
-								    'text'=> 'กรุณาเลือกเมนูที่ต้องการ',
+							            'thumbnailImageUrl'=>'https://image.ibb.co/gTW9Kb/ESAC2.jpg',
+							            'title'=>'การขอหนังสือรับรองความรู้ความสามารถ', 
+								    'text'=> 'กรุณาเลือกหัวข้อที่ต้องการทราบ',
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
