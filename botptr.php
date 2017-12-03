@@ -376,7 +376,7 @@ if (!is_null($events['events'])) {
                                                                                                            array(
                                                                                                                  'type'=> 'message',
                                                                                                                  'label'=> 'พ.ร.บ.พัฒนาฝีมือแรงงานฯ',
-                                                                                                                 'text'=> 'ระเบียบก่อสร้างปี 59'
+                                                                                                                 'text'=> 'พ.ร.บ.พัฒนาฝีมือแรงงานฯ'
                                                                                                                  ),
 									                                   array(
                                                                                                                 'type'=> 'message',
