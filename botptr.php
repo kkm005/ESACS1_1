@@ -370,12 +370,13 @@ if (!is_null($events['events'])) {
                                                              'columns'=> array(
 						                               array(
 										     'thumbnailImageUrl'=>'https://image.ibb.co/gTW9Kb/ESAC2.jpg',
-								                     'title'=>'ศูนย์ประเมินความรู้ความสามารถ กฟต.1',    
+								                     'title'=>'พระราชบัญญัติและประกาศฯ ที่เกี่ยวข้อง',    
 								                     'text'=> 'กรุณาเลือกหัวข้อที่ต้องการทราบ',
                                                                                         'actions'=>array (
                                                                                                            array(
                                                                                                                  'type'=> 'message',
-                                                                                                                 'label'=> 'ที่มาระเบียบก่อสร้างปี 59',
+                                                                                                                 'label'=> 'พ.ร.บ. ส่งเสริมการพัฒนาฝีมือแรงงาน
+														 \n(ฉบับที่ 2) พ.ศ. 2557',
                                                                                                                  'text'=> 'ระเบียบก่อสร้างปี 59'
                                                                                                                  ),
 									                                   array(
