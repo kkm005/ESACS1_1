@@ -398,19 +398,41 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'ขั้นตอนการขอหนังสือฯ',
-                                                                                            'text'=> 'ข้อมูลยานพาหนะ'
+                                                                                            'text'=> 'ขั้นตอนการขอหนังสือฯ'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'เอกสารที่ใช้ประกอบการยื่น',
-                                                                                            'text'=> 'พิกัดตำแหน่งงานก่อสร้าง'
+                                                                                            'label'=> 'เอกสารประกอบที่ใช้',
+                                                                                            'text'=> 'เอกสารประกอบที่ใช้'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
                                                                                               'label'=> 'หลักเกณฑ์การประเมิน',
-                                                                                               'text'=> 'เมนู'
+                                                                                               'text'=> 'หลักเกณฑ์การประเมิน'
                                                                                              )
                                                                                       )//action col2
+							             ),
+								     array(
+							            'thumbnailImageUrl'=>'https://image.ibb.co/gTW9Kb/ESAC2.jpg',
+							            'title'=>'สถานที่ติดต่อ', 
+								    'text'=> 'กรุณาเลือกหัวข้อที่ต้องการทราบ',
+                                                                    'actions'=>array (
+                                                                                      array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'สถานที่ติดต่อ',
+                                                                                            'text'=> 'ขั้นตอนการขอหนังสือฯ'
+                                                                                            ),
+									    array(
+                                                                                            'type'=> 'message',
+                                                                                            'label'=> 'แผนที่',
+                                                                                            'text'=> 'เอกสารประกอบที่ใช้'
+                                                                                            ),
+									 array(
+                                                                                             'type'=> 'message',
+                                                                                              'label'=> 'หลักเกณฑ์การประเมิน',
+                                                                                               'text'=> 'หลักเกณฑ์การประเมิน'
+                                                                                             )
+                                                                                      )//action col3
 							             )
 						  ) //array columns
                                                             )//array templete
