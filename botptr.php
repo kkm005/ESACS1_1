@@ -380,12 +380,12 @@ if (!is_null($events['events'])) {
                                                                                                                  ),
 									                                   array(
                                                                                                                 'type'=> 'message',
-                                                                                                                 'label'=> 'สาขาอาชีพที่ต้องมีหนังสือรับรองฯ',
+                                                                                                                 'label'=> 'ประกาศฯ สาขาอาชีพฯ',
                                                                                                                  'text'=> 'มาตรฐานงานก่อสร้าง'
                                                                                                                   ),
 												           array(
                                                                                                                 'type'=> 'message',
-                                                                                                                 'label'=> 'มาตรฐานช่างไฟฟ้าภายในอาคาร',
+                                                                                                                 'label'=> 'มาตรฐานช่างไฟฟ้าฯ',
                                                                                                                  'text'=> 'Pea Smart Location'
                                                                                                                   )
                                                                                                                   )//action col1
