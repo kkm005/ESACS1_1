@@ -364,7 +364,7 @@ if (!is_null($events['events'])) {
 			if($text=="เมนู"){
 				$messages = array(
 					 'type'=> 'template',
-                                          'altText'=> 'Pea Smart Query',
+                                          'altText'=> 'Electrician Skill Assessment Center - PEA S1',
                                            'template'=>array (
                                                              'type'=> 'carousel',
                                                              'columns'=> array(
