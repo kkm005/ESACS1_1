@@ -397,17 +397,17 @@ if (!is_null($events['events'])) {
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'ข้อมูลยานพาหนะ',
+                                                                                            'label'=> 'การยื่นขอหนังสือรับรอง',
                                                                                             'text'=> 'ข้อมูลยานพาหนะ'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'พิกัดตำแหน่งงานก่อสร้าง',
+                                                                                            'label'=> 'ขั้นตอนการขอหนังสือฯ',
                                                                                             'text'=> 'พิกัดตำแหน่งงานก่อสร้าง'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
-                                                                                              'label'=> 'จัดซื้อจัดจ้าง ( เร็วๆนี้) ',
+                                                                                              'label'=> 'เอกสารที่ใช้ประกอบการยื่น',
                                                                                                'text'=> 'เมนู'
                                                                                              )
                                                                                       )//action col2
