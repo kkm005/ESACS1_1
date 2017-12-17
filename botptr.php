@@ -382,7 +382,7 @@ if (!is_null($events['events'])) {
                                                              'columns'=> array(
 						                               array(
 										     'thumbnailImageUrl'=>'https://image.ibb.co/gTW9Kb/ESAC2.jpg',
-								                     'title'=>'พระราชบัญญัติและประกาศฯ ที่เกี่ยวข้อง',    
+								                     'title'=>'กฎหมายที่เกี่ยวข้อง',    
 								                     'text'=> 'กรุณาเลือกหัวข้อที่ต้องการทราบ',
                                                                                         'actions'=>array (
                                                                                                            array(
@@ -404,7 +404,7 @@ if (!is_null($events['events'])) {
 								            ),
 								     array(
 							            'thumbnailImageUrl'=>'https://image.ibb.co/gTW9Kb/ESAC2.jpg',
-							            'title'=>'การขอหนังสือรับรองความรู้ความสามารถ', 
+							            'title'=>'การขอหนังสือรับรองฯ', 
 								    'text'=> 'กรุณาเลือกหัวข้อที่ต้องการทราบ',
                                                                     'actions'=>array (
                                                                                       array(
