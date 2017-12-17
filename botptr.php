@@ -165,11 +165,11 @@ if (!is_null($events['events'])) {
 			if($text=="พ.ร.บ.พัฒนาฝีมือแรงงานฯ"){$Myd = $law1;$messages = ['type' => 'text','text' => $Myd];}
 			if($text=="อาชีพที่ต้องมีหนังสือรับรองฯ")
 			//{$Myd = $law2;$messages = ['type' => 'text','image' => $Myd];}
-			{
- 			   "type": "image",
-			    "originalContentUrl": "https://example.com/original.jpg",
-			    "previewImageUrl": "https://example.com/preview.jpg"
-			}
+			$message = [
+ 				"type": "image",
+			    	"originalContentUrl": "https://raiingphu.com/psq/PIC1.jpg",
+			    	"previewImageUrl": "https://raiingphu.com/psq/PIC1.jpg"
+				];
 				
 			if($text=="ช่างไฟฟ้าภายในอาคาร"){$Myd = $law3;$messages = ['type' => 'text','text' => $Myd];}
 			
