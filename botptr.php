@@ -162,7 +162,7 @@ if (!is_null($events['events'])) {
 			             ];
 			 }
 			if($text=="พ.ร.บ.พัฒนาฝีมือแรงงานฯ"){$Myd = $law1;$messages = ['type' => 'text','text' => $Myd];}
-			if($text=="อาชีพที่ต้องมีหนังสือรับรองฯ"){$Myd = $law2;$messages = ['type' => 'image','image' => $Myd];}
+			if($text=="อาชีพที่ต้องมีหนังสือรับรองฯ"){$Myd = $law2;$messages = ['type' => 'text','image' => $Myd];}
 			if($text=="ช่างไฟฟ้าภายในอาคาร"){$Myd = $law3;$messages = ['type' => 'text','text' => $Myd];}
 			
 			if($text=="ข้อมูลยานพาหนะ"){$Myd = "ข้อมูลยานพาหนะ สามารถค้นหาข้อมูลยานพาหนะของ กฟต.1 ได้โดยการพิมพ์หมายเลขทะเบียน เช่น กธ-6340";$messages = ['type' => 'text','text' => $Myd];}
