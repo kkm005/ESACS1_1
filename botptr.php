@@ -8,7 +8,8 @@ $law1 = "สาระสำคัญของ พ.ร.บ. ได้แก่ \n
 \n3. คุณสมบัติผู้ที่จะยื่นคำขอหนังสือรับรองความรู้ความสามารถ \n3.1 ผ่านการทดสอบมาตรฐานฝีมือแรงงานแห่งชาติ สาขาช่างไฟฟ้าภายในอาคาร\n3.2 มีประสบการณ์การทำงานในสาขาอาชีพที่เกี่ยวข้องกับการประเมิน\n3.3 มีคุณลักษณะส่วนบุคคลที่เหมาะสมในสาขาอาชีพที่ขอรับการประเมิน 
 \nสามารถศึกษารายละเอียดของ พ.ร.บ. ได้ที่
 \nhttp://www.ratchakitcha.soc.go.th/DATA/PDF/2557/A/087/19.PDF";
-$law3 = "สามารถศึกษารายละเอียดได้ที่ \nhhttp://www.mol.go.th/sites/default/files/laws/th/507_file_29.saakhaaaachiiphantraay_03112559164244_.pdf";
+$law3 = "สามารถศึกษารายละเอียดได้ที่ 
+\nhttp://www.mol.go.th/sites/default/files/laws/th/507_file_29.saakhaaaachiiphantraay_03112559164244_.PDF";
 
 $content = file_get_contents('php://input');
 // Parse JSON
