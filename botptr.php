@@ -388,7 +388,7 @@ if (!is_null($events['events'])) {
                                                                                                            array(
                                                                                                                  'type'=> 'message',
                                                                                                                  'label'=> 'พ.ร.บ.พัฒนาฝีมือแรงงานฯ',
-                                                                                                                 'text'=> 'พ.ร.บ.พัฒนาฝีมือแรงงานฯ'
+                                                                                                                 'text'=> 'พ.ร.บ.'
                                                                                                                  ),
 									                                   array(
                                                                                                                 'type'=> 'message',
