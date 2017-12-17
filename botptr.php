@@ -11,6 +11,8 @@ $law1 = "สาระสำคัญของ พ.ร.บ. ได้แก่ \n
 \nhttp://www.ratchakitcha.soc.go.th/DATA/PDF/2557/A/087/19.PDF";
 $law2 = "สามารถศึกษารายละเอียดได้ที่ 
 \nhttp://www.mol.go.th/sites/default/files/laws/th/507_file_29.saakhaaaachiiphantraay_03112559164244_.PDF";
+$law3 = "สามารถศึกษารายละเอียดได้ที่ 
+\nwww.mol.go.th/sites/default/files/download_45.pdf";
 
 $content = file_get_contents('php://input');
 // Parse JSON
@@ -164,7 +166,7 @@ if (!is_null($events['events'])) {
 			 }
 			if($text=="พ.ร.บ.พัฒนาฝีมือแรงงานฯ"){$Myd = $law1;$messages = ['type' => 'text','text' => $Myd];}
 			if($text=="อาชีพที่ต้องมีหนังสือรับรองฯ"){$Myd = $law2;$messages = ['type' => 'text','text' => $Myd];}
-			if($text=="ช่างไฟฟ้าภายในอาคาร"){$Myd = $law3;$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="มาตรฐานฝีมือช่างไฟฟ้าฯ"){$Myd = $law3;$messages = ['type' => 'text','text' => $Myd];}
 			
 			if($text=="ข้อมูลยานพาหนะ"){$Myd = "ข้อมูลยานพาหนะ สามารถค้นหาข้อมูลยานพาหนะของ กฟต.1 ได้โดยการพิมพ์หมายเลขทะเบียน เช่น กธ-6340";$messages = ['type' => 'text','text' => $Myd];}
 			if($text=="เสา"){$Myd = $pole;$messages = ['type' => 'text','text' => $Myd];}
