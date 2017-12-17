@@ -166,8 +166,8 @@ if (!is_null($events['events'])) {
 			if($text=="อาชีพที่ต้องมีหนังสือรับรองฯ")
 			//{$Myd = $law2;$messages = ['type' => 'text','image' => $Myd];}
 			$message = [
- 				"type": "image",
-			    	'thumbnailImageUrl'=>'https://raiingphu.com/psq/PIC2.jpg'
+ 				'type' ==> 'image',
+			    	'thumbnailImageUrl' => 'https://raiingphu.com/psq/PIC2.jpg'
 				//"originalContentUrl": "https://raiingphu.com/psq/PIC1.jpg",
 			    	//"previewImageUrl": "https://raiingphu.com/psq/PIC1.jpg"
 				];
