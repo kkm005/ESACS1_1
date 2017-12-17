@@ -171,9 +171,9 @@ if (!is_null($events['events'])) {
 				'text' => $Myd    
 			             ];
 			 }
-			if($text=="พ.ร.บ.พัฒนาฝีมือแรงงานฯ"){$Myd = $law1;$messages = ['type' => 'text','text' => $Myd];}
-			if($text=="มาตรฐานฝีมือช่างไฟฟ้าฯ"){$Myd = $law2;$messages = ['type' => 'text','text' => $Myd];}
-			if($text=="ผู้ได้รับประโยชน์"){$Myd = $law3;$messages = ['type' => 'text','text' => $Myd];}
+			//if($text=="พ.ร.บ.พัฒนาฝีมือแรงงานฯ"){$Myd = $law1;$messages = ['type' => 'text','text' => $Myd];}
+			//if($text=="มาตรฐานฝีมือช่างไฟฟ้าฯ"){$Myd = $law2;$messages = ['type' => 'text','text' => $Myd];}
+			//if($text=="ผู้ได้รับประโยชน์"){$Myd = $law3;$messages = ['type' => 'text','text' => $Myd];}
 
 			
 			if($text=="ข้อมูลยานพาหนะ"){$Myd = "ข้อมูลยานพาหนะ สามารถค้นหาข้อมูลยานพาหนะของ กฟต.1 ได้โดยการพิมพ์หมายเลขทะเบียน เช่น กธ-6340";$messages = ['type' => 'text','text' => $Myd];}
@@ -388,17 +388,17 @@ if (!is_null($events['events'])) {
                                                                                                            array(
                                                                                                                  'type'=> 'message',
                                                                                                                  'label'=> 'พ.ร.บ.พัฒนาฝีมือแรงงานฯ',
-                                                                                                                 'text'=> 'พ.ร.บ.'
+                                                                                                                 'text'=> 'พ.ร.บ.พัฒนาฝีมือแรงงานฯ'
                                                                                                                  ),
 									                                   array(
                                                                                                                 'type'=> 'message',
                                                                                                                  'label'=> 'มาตรฐานฝีมือช่างไฟฟ้าฯ',
-                                                                                                                 'text'=> 'มาตรฐานช่างไฟฟ้า'
+                                                                                                                 'text'=> 'มาตรฐานฝีมือช่างไฟฟ้าฯ'
                                                                                                                   ),
 												           array(
                                                                                                                 'type'=> 'message',
                                                                                                                  'label'=> 'ผู้ได้รับประโยชน์',
-                                                                                                                 'text'=> 'ประโยชน์'
+                                                                                                                 'text'=> 'ผู้ได้รับประโยชน์'
                                                                                                                   )
                                                                                                                   )//action col1
 								            ),
@@ -410,17 +410,17 @@ if (!is_null($events['events'])) {
                                                                                       array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'ขั้นตอนการขอหนังสือฯ',
-                                                                                            'text'=> 'ขั้นตอน'
+                                                                                            'text'=> 'ขั้นตอนการขอหนังสือฯ'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
                                                                                             'label'=> 'เอกสารหลักฐานที่ใช้',
-                                                                                            'text'=> 'เอกสาร'
+                                                                                            'text'=> 'เอกสารหลักฐานที่ใช้'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
                                                                                               'label'=> 'หลักเกณฑ์การประเมิน',
-                                                                                               'text'=> 'หลักเกณฑ์'
+                                                                                               'text'=> 'หลักเกณฑ์การประเมิน'
                                                                                              )
                                                                                       )//action col2
 							             ),
