@@ -8,7 +8,7 @@ $law1 = "สาระสำคัญของ พ.ร.บ. ได้แก่ \n
 \n3. คุณสมบัติผู้ที่จะยื่นคำขอหนังสือรับรองความรู้ความสามารถ \n3.1 ผ่านการทดสอบมาตรฐานฝีมือแรงงานแห่งชาติ สาขาช่างไฟฟ้าภายในอาคาร\n3.2 มีประสบการณ์การทำงานในสาขาอาชีพที่เกี่ยวข้องกับการประเมิน\n3.3 มีคุณลักษณะส่วนบุคคลที่เหมาะสมในสาขาอาชีพที่ขอรับการประเมิน 
 \nสามารถศึกษารายละเอียดของ พ.ร.บ. ฉบับเต็มได้ที่
 \nhttp://www.ratchakitcha.soc.go.th/DATA/PDF/2557/A/087/19.PDF";
-$law2 = "kk" ;
+//$law2 = "kk" ;
 //"originalContentUrl": "https://raiingphu.com/psq/PIC2.jpg", "previewImageUrl": "https://raiingphu.com/psq/PIC2.jpg";
 $law3 = "Law3 ";
 
@@ -167,8 +167,9 @@ if (!is_null($events['events'])) {
 			//{$Myd = $law2;$messages = ['type' => 'text','image' => $Myd];}
 			$message = [
  				"type": "image",
-			    	"originalContentUrl": "https://raiingphu.com/psq/PIC1.jpg",
-			    	"previewImageUrl": "https://raiingphu.com/psq/PIC1.jpg"
+			    	'thumbnailImageUrl'=>'https://raiingphu.com/psq/PIC2.jpg'
+				//"originalContentUrl": "https://raiingphu.com/psq/PIC1.jpg",
+			    	//"previewImageUrl": "https://raiingphu.com/psq/PIC1.jpg"
 				];
 				
 			if($text=="ช่างไฟฟ้าภายในอาคาร"){$Myd = $law3;$messages = ['type' => 'text','text' => $Myd];}
