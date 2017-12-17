@@ -414,8 +414,8 @@ if (!is_null($events['events'])) {
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'เอกสารประกอบที่ใช้',
-                                                                                            'text'=> 'เอกสารประกอบที่ใช้'
+                                                                                            'label'=> 'เอกสารฯ ที่ใช้',
+                                                                                            'text'=> 'เอกสารฯ ที่ใช้'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
