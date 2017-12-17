@@ -12,7 +12,7 @@ $law1 = "สาระสำคัญของ พ.ร.บ. ได้แก่ \n
 $law2 = "สามารถศึกษารายละเอียดได้ที่ 
 \nhttp://www.mol.go.th/sites/default/files/laws/th/507_file_29.saakhaaaachiiphantraay_03112559164244_.PDF";
 $law3 = "สามารถศึกษารายละเอียดได้ที่ 
-\nwww.mol.go.th/sites/default/files/download_45.pdf";
+\nhttp://www.ratchakitcha.soc.go.th/DATA/PDF/2552/E/184/29.PDF";
 
 $content = file_get_contents('php://input');
 // Parse JSON
