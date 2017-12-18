@@ -189,7 +189,8 @@ if (!is_null($events['events'])) {
 			if($text=="หม้อแปลงไฟฟ้า"){$Myd = $tran;$messages = ['type' => 'text','text' => $Myd];}
 			if($text=="อุปกรณ์ไฟถนน"){$Myd = $street;$messages = ['type' => 'text','text' => $Myd];}
 			if($Myd==""){
-				$Myd = "คุณสามารถดูรายละเอียดอื่นๆ ได้โดยการพิมพ์ Keyword หรือพิมพ์คำว่า ' เมนู ' ";
+				$Myd = "คุณสามารถดูรายละเอียดอื่นๆ ได้โดยการพิมพ์ Keyword ที่ต้องการทราบ เช่น ขั้นตอน, หลักเกณฑ์ 
+				\nหรือพิมพ์คำว่า ' เมนู ' ";
 				$messages = ['type' => 'text','text' => $Myd];			}
 			 if($Myd=="999"){ 
 				 $findresult = "success";
