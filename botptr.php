@@ -426,7 +426,7 @@ if (!is_null($events['events'])) {
 							             ),
 								     array(
 							            'thumbnailImageUrl'=>'https://image.ibb.co/gTW9Kb/ESAC2.jpg',
-							            'title'=>'สถานที่ติดต่อ', 
+							            'title'=>'สถานที่ติดต่อและยื่นเอกสาร', 
 								    'text'=> 'กรุณาเลือกหัวข้อที่ต้องการทราบ',
                                                                     'actions'=>array (
                                                                                       array(
@@ -436,8 +436,8 @@ if (!is_null($events['events'])) {
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'แผนที่',
-                                                                                            'text'=> 'แผนที่'
+                                                                                            'label'=> 'แผนที่การเดินทาง',
+                                                                                            'text'=> 'แผนที่การเดินทาง'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
