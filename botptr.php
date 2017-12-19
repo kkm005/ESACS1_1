@@ -432,13 +432,13 @@ if (!is_null($events['events'])) {
                                                                     'actions'=>array (
                                                                                       array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'สถานที่ติดต่อ',
-                                                                                            'text'=> 'สถานที่ติดต่อ'
+                                                                                            'label'=> 'ช่องทางการยื่นเอกสาร',
+                                                                                            'text'=> 'ช่องทางการยื่นเอกสาร'
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'แผนที่การเดินทาง',
-                                                                                            'text'=> 'แผนที่การเดินทาง'
+                                                                                            'label'=> 'ศูนย์ประเมินฯ กฟต.1',
+                                                                                            'text'=> 'ศูนย์ประเมินฯ กฟต.1'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
