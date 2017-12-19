@@ -437,8 +437,8 @@ if (!is_null($events['events'])) {
                                                                                             ),
 									    array(
                                                                                             'type'=> 'message',
-                                                                                            'label'=> 'ศูนย์ประเมินฯ กฟต.1',
-                                                                                            'text'=> 'ศูนย์ประเมินฯ กฟต.1'
+                                                                                            'label'=> 'สถานที่ติดต่อ',
+                                                                                            'text'=> 'สถานที่ติดต่อ'
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
