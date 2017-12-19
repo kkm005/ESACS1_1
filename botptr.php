@@ -442,8 +442,8 @@ if (!is_null($events['events'])) {
                                                                                             ),
 									 array(
                                                                                              'type'=> 'message',
-                                                                                              'label'=> 'ข่าวประชาสัมพันธ์',
-                                                                                               'text'=> 'ข่าวประชาสัมพันธ์'
+                                                                                              'label'=> 'แผนที่การเดินทาง',
+                                                                                               'text'=> 'แผนที่การเดินทาง'
                                                                                              )
                                                                                       )//action col3
 							             )
